@@ -1,4 +1,4 @@
-def compound_interest_2019_1_60_063(P,R,T):
+def compound_interest_2019_1_60_064(P,R,T):
     return P*(1+(R/100))**T
 
 P = float(input("Enter principle amount: "))
