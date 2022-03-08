@@ -1,4 +1,4 @@
-def palindrome_checker_2019_1_60_063(string):
+def palindrome_checker_2019_1_60_064(string):
     string1 = ''.join(reversed(string))
     if(string==string1):
         return True
@@ -7,7 +7,7 @@ def palindrome_checker_2019_1_60_063(string):
 
 string = "level"
 print("Given string is : ", string)
-check = palindrome_checker_2019_1_60_063(string)
+check = palindrome_checker_2019_1_60_064(string)
 if (check):
     print("Palindrome")
 else:
